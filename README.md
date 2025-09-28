@@ -19,6 +19,7 @@ pip install -r requirements.txt
 python api/index.py
 # Open http://127.0.0.1:5000/api/health
 
+### - other
 
 <p align="center">
   <a href="https://nextjs-flask-starter.vercel.app/">
