@@ -13,14 +13,6 @@ Backend API powering the K‑WORD Matrix and triggers, deployed as a Vercel Pyth
 - POST /api/reports/generate
 - GET  /api/python
 
-## Local Development
-```bash
-pip install -r requirements.txt
-python api/index.py
-# Open http://127.0.0.1:5000/api/health
-
-### - other
-
 <p align="center">
   <a href="https://nextjs-flask-starter.vercel.app/">
     <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
