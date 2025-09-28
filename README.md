@@ -1,3 +1,25 @@
+# KWORD API (Flask on Vercel)
+
+Backend API powering the K‑WORD Matrix and triggers, deployed as a Vercel Python Serverless Function.
+
+## Endpoints
+- GET  /api
+- GET  /api/health
+- GET  /api/metrics
+- POST /api/metrics
+- GET  /api/matrix/kwords
+- POST /api/matrix/kwords
+- POST /api/triggers/run
+- POST /api/reports/generate
+- GET  /api/python
+
+## Local Development
+```bash
+pip install -r requirements.txt
+python api/index.py
+# Open http://127.0.0.1:5000/api/health
+
+
 <p align="center">
   <a href="https://nextjs-flask-starter.vercel.app/">
     <img src="https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png" height="96">
